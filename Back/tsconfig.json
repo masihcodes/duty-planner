@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "types": ["node"],
+    "esModuleInterop": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    // "allowJs": true,
+
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "module": "preserve",
+    // "module": "NodeNext",
+    "target": "ESNext",
+    // "moduleResolution": "NodeNext",
+
+    "sourceMap": true,
+    // "declaration": true,
+    // "declarationMap": true,
+
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedSideEffectImports": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    // "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noPropertyAccessFromIndexSignature": true,
+    "rewriteRelativeImportExtensions": true,
+    // "allowImportingTsExtensions": true,
+    // "noEmit": false,
+
+    // "jsx": "react-jsx",
+
+    "paths": {
+      "#*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
